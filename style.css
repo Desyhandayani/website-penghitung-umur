@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+/* overfloy-y itu untuk scroll ke bawah hidden itu hilang */
+/* pverflow-x untuk scrol ke samping jika hidden maka hilang  */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /* solid untuk menebalkan garis border */
+    border: 1px solid black;
+    padding: 100px;
+    background-color: pink;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 2px solid black !important;
+}
+
+button {
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px;
+    background-color: aquamarine;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+}
